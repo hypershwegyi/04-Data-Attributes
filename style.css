@@ -1,0 +1,42 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: brown;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px auto;
+  letter-spacing: 0.20em;
+  color: burlywood;
+}
+
+.container {
+  width: 80vw;
+  margin: 30px auto;
+}
+.box {
+  display: block;
+  float: left;
+  width: 31%;
+  height: 200px;
+  margin: 1%;
+  cursor: pointer;
+  object-fit: cover;
+  border-radius: 10px;
+  background-color: chocolate;
+  text-align: center;
+  line-height: 200px;
+  font-size: 125px;
+  color: blanchedalmond;
+}
+
+@media (max-width: 750px) {
+  .box {
+    width: 50%;
+  }
+}
